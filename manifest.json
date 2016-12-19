@@ -1,4 +1,15 @@
 {
     "DirectoryName": "_dist",
     "Description": "root",
+    "Files": ""
+    [
+        {
+            "FileName": "fray.SYSmt",
+            "Name": "Into the Fray",
+            "Description": "Example description.",
+            "Version": "0.1",
+            "Author": "Jonathan Smith",
+            "DatePublished": "2016-19-08T09:44:00.673Z"
+        },
+    ]
 }
