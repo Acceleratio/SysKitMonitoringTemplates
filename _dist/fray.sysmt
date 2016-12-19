@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TemplateDefinition xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <TemplateId>10</TemplateId>
+  <Name>into the fray my friends</Name>
+  <Description>follow me</Description>
+  <SelectedCounters>
+    <SelectedCounter>
+      <CategoryId>15</CategoryId>
+      <Category>ASP.NET</Category>
+      <CategorySingleton>true</CategorySingleton>
+      <CategoryName>Win32_PerfRawData_ASPNET_ASPNET</CategoryName>
+      <CategoryDescription>ASP.NET global performance counters</CategoryDescription>
+      <CounterId>52</CounterId>
+      <Counter>Requests Rejected</Counter>
+      <CounterName>RequestsRejected</CounterName>
+      <CounterDescription>The number of requests rejected because the request queue was full.</CounterDescription>
+      <CounterType>65536</CounterType>
+      <InstanceId>15</InstanceId>
+      <Instance>--</Instance>
+      <CriticalThreshold>0</CriticalThreshold>
+      <WarningThreshold>0</WarningThreshold>
+      <ThresholdPeriod>15</ThresholdPeriod>
+      <SendAlert>false</SendAlert>
+      <SendWarningAlert>false</SendWarningAlert>
+      <IgnorePeriod>12</IgnorePeriod>
+      <ThresholdType>Above</ThresholdType>
+      <Tolerance>5</Tolerance>
+    </SelectedCounter>
+    <SelectedCounter>
+      <CategoryId>15</CategoryId>
+      <Category>ASP.NET</Category>
+      <CategorySingleton>true</CategorySingleton>
+      <CategoryName>Win32_PerfRawData_ASPNET_ASPNET</CategoryName>
+      <CategoryDescription>ASP.NET global performance counters</CategoryDescription>
+      <CounterId>61</CounterId>
+      <Counter>Application Restarts</Counter>
+      <CounterName>ApplicationRestarts</CounterName>
+      <CounterDescription>Number of times the application has been restarted during the web server's lifetime.</CounterDescription>
+      <CounterType>65536</CounterType>
+      <InstanceId>15</InstanceId>
+      <Instance>--</Instance>
+      <CriticalThreshold>560</CriticalThreshold>
+      <WarningThreshold>5</WarningThreshold>
+      <ThresholdPeriod>10</ThresholdPeriod>
+      <SendAlert>true</SendAlert>
+      <SendWarningAlert>true</SendWarningAlert>
+      <IgnorePeriod>12</IgnorePeriod>
+      <ThresholdType>Above</ThresholdType>
+      <Tolerance>5</Tolerance>
+    </SelectedCounter>
+    <SelectedCounter>
+      <CategoryId>21</CategoryId>
+      <Category>.NET CLR Loading</Category>
+      <CategorySingleton>false</CategorySingleton>
+      <CategoryName>Win32_PerfRawData_NETFramework_NETCLRLoading</CategoryName>
+      <CategoryDescription>Statistics for CLR Class Loader.</CategoryDescription>
+      <CounterId>96</CounterId>
+      <Counter>% Time Loading</Counter>
+      <CounterName>PercentTimeLoading</CounterName>
+      <CounterDescription>Reserved for future use.</CounterDescription>
+      <CounterType>541132032</CounterType>
+      <InstanceId>26</InstanceId>
+      <Instance>&lt;All instances&gt;</Instance>
+      <InstanceName>*</InstanceName>
+      <CriticalThreshold>50</CriticalThreshold>
+      <WarningThreshold>5</WarningThreshold>
+      <ThresholdPeriod>19</ThresholdPeriod>
+      <SendAlert>true</SendAlert>
+      <SendWarningAlert>true</SendWarningAlert>
+      <IgnorePeriod>12</IgnorePeriod>
+      <ThresholdType>Above</ThresholdType>
+      <Tolerance>5</Tolerance>
+    </SelectedCounter>
+    <SelectedCounter>
+      <CategoryId>21</CategoryId>
+      <Category>.NET CLR Loading</Category>
+      <CategorySingleton>false</CategorySingleton>
+      <CategoryName>Win32_PerfRawData_NETFramework_NETCLRLoading</CategoryName>
+      <CategoryDescription>Statistics for CLR Class Loader.</CategoryDescription>
+      <CounterId>111</CounterId>
+      <Counter>Total Classes Loaded</Counter>
+      <CounterName>TotalClassesLoaded</CounterName>
+      <CounterDescription>This counter displays the cumulative number of classes loaded in all Assemblies since the start of this application.</CounterDescription>
+      <CounterType>65536</CounterType>
+      <InstanceId>26</InstanceId>
+      <Instance>&lt;All instances&gt;</Instance>
+      <InstanceName>*</InstanceName>
+      <CriticalThreshold>0</CriticalThreshold>
+      <WarningThreshold>0</WarningThreshold>
+      <ThresholdPeriod>15</ThresholdPeriod>
+      <SendAlert>false</SendAlert>
+      <SendWarningAlert>false</SendWarningAlert>
+      <IgnorePeriod>12</IgnorePeriod>
+      <ThresholdType>Above</ThresholdType>
+      <Tolerance>5</Tolerance>
+    </SelectedCounter>
+  </SelectedCounters>
+  <SelectedServices>
+    <SelectedService>
+      <ServiceId>11</ServiceId>
+      <DisplayName>App Readiness</DisplayName>
+      <SendAlert>false</SendAlert>
+      <RestartWhenStopped>true</RestartWhenStopped>
+      <IgnorePeriod>12</IgnorePeriod>
+      <ServiceName>AppReadiness</ServiceName>
+    </SelectedService>
+    <SelectedService>
+      <ServiceId>12</ServiceId>
+      <DisplayName>AppX Deployment Service (AppXSVC)</DisplayName>
+      <SendAlert>true</SendAlert>
+      <RestartWhenStopped>false</RestartWhenStopped>
+      <IgnorePeriod>12</IgnorePeriod>
+      <ServiceName>AppXSvc</ServiceName>
+    </SelectedService>
+    <SelectedService>
+      <ServiceId>202</ServiceId>
+      <DisplayName>Windows Time</DisplayName>
+      <SendAlert>true</SendAlert>
+      <RestartWhenStopped>false</RestartWhenStopped>
+      <IgnorePeriod>12</IgnorePeriod>
+      <ServiceName>W32Time</ServiceName>
+    </SelectedService>
+    <SelectedService>
+      <ServiceId>204</ServiceId>
+      <DisplayName>Windows Process Activation Service</DisplayName>
+      <SendAlert>true</SendAlert>
+      <RestartWhenStopped>false</RestartWhenStopped>
+      <IgnorePeriod>12</IgnorePeriod>
+      <ServiceName>WAS</ServiceName>
+    </SelectedService>
+    <SelectedService>
+      <ServiceId>236</ServiceId>
+      <DisplayName>WWAN AutoConfig</DisplayName>
+      <SendAlert>true</SendAlert>
+      <RestartWhenStopped>true</RestartWhenStopped>
+      <IgnorePeriod>12</IgnorePeriod>
+      <ServiceName>WwanSvc</ServiceName>
+    </SelectedService>
+    <SelectedService>
+      <ServiceId>0</ServiceId>
+      <DisplayName>abc*</DisplayName>
+      <SendAlert>true</SendAlert>
+      <RestartWhenStopped>true</RestartWhenStopped>
+      <IgnorePeriod>12</IgnorePeriod>
+      <ServiceName>abc*</ServiceName>
+    </SelectedService>
+  </SelectedServices>
+</TemplateDefinition>
