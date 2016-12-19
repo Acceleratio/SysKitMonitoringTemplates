@@ -2,7 +2,7 @@
 <TemplateDefinition xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <TemplateId>10</TemplateId>
   <Name>into the fray my friends</Name>
-  <Description>follow me</Description>
+  <Description>follow me once again</Description>
   <SelectedCounters>
     <SelectedCounter>
       <CategoryId>15</CategoryId>
